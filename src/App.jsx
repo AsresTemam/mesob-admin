@@ -8,7 +8,8 @@ import { Routes, Route } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-export const backendUrl = 'http://localhost:4000'
+export const backendUrl = 'https://mesob-backend.vercel.app';
+// export const backendUrl = 'http://localhost:4000'
 
 const App = () => {
   const [token, setToken] = useState(localStorage.getItem('token') || "")
